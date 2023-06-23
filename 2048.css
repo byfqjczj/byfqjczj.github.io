@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 0px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-image: url(output-onlinepngtools.png);
+
+}
+
+.x4 {
+    background-image: url("93f2521fa6c0f61728a1487b7ed81a6d.jpg");
+    background-size: contain;
+}
+
+.x8 {
+    background-image: url("U70ZbMag_400x400.jpg");
+    background-size: contain;
+}
+
+.x16{
+    background-image: url("335716.jpg");
+    background-size: contain;
+}
+
+.x32{
+    background-image: url("90236346_p0_square1200.jpg");
+    background-size: contain;
+}
+
+.x64{
+    background-image: url("happy-birthday-qiqi-v0-nywktdvp6gla1.png");
+    background-size: contain;
+}
+
+.x128{
+    background-image: url("339037.jpg");
+    background-size: contain;
+}
+
+.x256{
+    background-image: url("FJS-R1QaAAAQYG-.jpg");
+    background-size: contain;
+}
+
+.x512{
+    background-image: url("communityIcon_5up7t6qkhtr61.png");
+    background-size: contain;
+}
+
+.x1024{
+    background-image: url("33f9Wif9_400x400.jpg");
+    background-size: contain;
+}
+
+.x2048{
+    background-image: url("EwWi6txVEAQgUAJ.jpg");
+    background-size: contain;
+}
+
+.x4096 {
+    background-image: url("793e89c1d37361d42d9bd62527beb5db.jpg");
+    background-size: contain;
+}
+
+.x8192 {
+    background-image: url("335219.png");
+    background-size: contain;
+}
