@@ -10,7 +10,7 @@ function gone(element) {
 document.addEventListener('DOMContentLoaded', () => {
 
     // preload white images to reduce hover buffer
-    ['linkedin', 'mail', 'resume', 'github','me'].forEach((icon) => {
+    ['linkedin', 'mail', 'resume', 'github'].forEach((icon) => {
         const img = new Image();
         img.src = `images/${icon}-white.png`;
     })
