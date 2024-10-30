@@ -899,7 +899,7 @@ ul li {
 
 ::selection {
     background: #222;
-    color: #fff
+    color: #ffff
 }
 
 @media screen and (min-width: 1025px) {
@@ -1019,4 +1019,21 @@ li {
 
 .mobile-menu-wrapper {
     visibility: hidden
+}
+
+.profile-image {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 10px solid #dddddd;
+    transition: transform 0.2s;
+}
+
+.profile-image-container .profile-image {
+    position: relative;
+    z-index: 1000;
 }
