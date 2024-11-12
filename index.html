@@ -1,12 +1,14 @@
 
 <!DOCTYPE html>
-<html lang="en-US" class="no-js no-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/default_style.css" />
+<html lang="en-US" class="no-js no-svg"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/default_style.css" />
 	<link rel="stylesheet" type="text/css" href="styles/custom_additions.css" />
-    <script src="script.js" defer></script>
-    <link rel="icon" href="images/icon.jpg">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<script src="script.js" defer></script>
+	<link rel="icon" href="images/icon.jpg">
 	<title>JW</title>
 </head>
 
@@ -36,35 +38,45 @@
 <main id="main" class="site-main">
 <article id="post-6" class="post-6 page type-page status-publish hentry">
 
-<div class="entry-content">
-	<div class="btn-group">
-		<button title="Resume" onmouseover="hover('resume')" onmouseout="gone('resume')"
-				onclick="window.open('./resume.pdf', '_blank')"
-				class="button button5" style="width:175px;height:140px;">
-			<img id="resume" src="images/resume-colored.png" alt="GitHub" style="width:50px;height:50px;">
-		</button>
-		<button title="Mail" onmouseover="hover('mail')" onmouseout="gone('mail')"
-				onclick="window.open('mailto:zjw2005@uchicago.edu', '_blank')"
-				class="button button5" style="width:175px;height:140px;">
-			<img id="mail" src="images/mail-colored.png" alt="CV" style="width:50px;height:50px;">
-		</button>
-		<button title="LinkedIn" onmouseover="hover('linkedin')" onmouseout="gone('linkedin')"
-				onclick="window.open('https://www.linkedin.com/in/zhuoqin-wang/', '_blank')"
-				class="button button5" style="width:175px;height:140px;">
-			<img id="linkedin" src="images/linkedin-colored.png" class="" alt="GitHub" style="width:24px;height:24px;">
-		</button>
-		<button title="GitHub" onmouseover="hover('github')" onmouseout="gone('github')"
-				onclick="window.open('https://github.com/byfqjczj', '_blank')"
-				class="button button5" style="width:175px;height:140px;">
-			<img id="github" src="images/github-colored.png" class="github-icon" alt="GitHub" style="width:50px;height:50px;">
-		</button>
-		<button title="About Me" onmouseover="hover('me')" onmouseout="gone('me')"
-				onclick="window.open('https://www.linkedin.com/in/zhuoqin-wang/', '_blank')"
-				class="button button5" style="width:175px;height:140px;">
-			<img id="me" src="images/me-colored.png" class="" alt="GitHub" style="width:48px;height:48px;">
-		</button>
+	<div class="entry-content">
+		<div class="btn-group">
+			<button title="Resume" onmouseover="hover('resume')" onmouseout="gone('resume')"
+					onclick="window.open('./resume.pdf', '_blank')"
+					class="button button5" style="width:175px;height:140px;">
+				<img id="resume" src="images/resume-colored.png" alt="GitHub" style="width:50px;height:50px;">
+			</button>
+			<button title="Mail" onmouseover="hover('mail')" onmouseout="gone('mail')"
+					onclick="window.open('mailto:zjw2005@uchicago.edu', '_blank')"
+					class="button button5" style="width:175px;height:140px;">
+				<img id="mail" src="images/mail-colored.png" alt="CV" style="width:50px;height:50px;">
+			</button>
+			<button title="LinkedIn" onmouseover="hover('linkedin')" onmouseout="gone('linkedin')"
+					onclick="window.open('https://www.linkedin.com/in/zhuoqin-wang/', '_blank')"
+					class="button button5" style="width:175px;height:140px;">
+				<img id="linkedin" src="images/linkedin-colored.png" class="" alt="GitHub" style="width:24px;height:24px;">
+			</button>
+			<button title="GitHub" onmouseover="hover('github')" onmouseout="gone('github')"
+					onclick="window.open('https://github.com/byfqjczj', '_blank')"
+					class="button button5" style="width:175px;height:140px;">
+				<img id="github" src="images/github-colored.png" class="github-icon" alt="GitHub" style="width:50px;height:50px;">
+			</button>
+			<button title="About Me" onmouseover="hover('me')" onmouseout="gone('me')"
+					onclick="displayOverlay()"
+					class="button button5" style="width:175px;height:140px;">
+				<img id="me" src="images/me-colored.png" class="" alt="GitHub" style="width:48px;height:48px;">
+			</button>
+		</div>
+		<!-- Overlay element -->
+		<div id="overlay">
+			<div id="overlay-content">
+				<h2>Hi! I'm Jack.</h2>
+				<p>I'm really flatterd that you wanted to know more about me.</p>
+				<p>I am a sophomore at the <span class="highlight-red">University of Chicago</span>, studying computer science and economics.</p>
+				<p>In my free times, I enjoy drinking boba, sleeping, reading, and playing video games.</p>
+				<p>I am trying to migrate my old blogs onto my new site, hoping to finish it sometime soon.</p>
+			</div>
+		</div>
 	</div>
-</div>
 </div>
 </article>
 </main>
