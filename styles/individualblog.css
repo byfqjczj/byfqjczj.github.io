@@ -1,0 +1,200 @@
+/* General Body and Layout */
+body.blog-page {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #666; /* Default text color */
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Post Layout */
+.blog-posts {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 40px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.post-header {
+    position: relative;
+}
+
+.featured-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Meta data styling */
+.post-meta {
+    font-family: 'Courier New', monospace; /* Use Courier New font */
+    font-size: 14px;
+    color: #888; /* Meta text color */
+    margin-top: 10px; /* Space between summary and meta */
+}
+
+    .post-meta span {
+        margin-right: 10px;
+    }
+
+/* Summary styling */
+.post-excerpt {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000; /* Summary text color changed to black */
+    cursor: pointer; /* Make the summary clickable */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+    .post-excerpt a {
+        text-decoration: none; /* Remove default underline from the link */
+        color: inherit; /* Inherit color from the parent .post-excerpt */
+    }
+
+        .post-excerpt a:hover {
+            color: #666; /* Change to lighter gray on hover */
+        }
+
+/* Sidebar (if needed later) */
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.widget h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .widget ul li {
+        margin-bottom: 8px;
+    }
+
+        .widget ul li a {
+            color: #0693e3;
+            text-decoration: none;
+        }
+
+            .widget ul li a:hover {
+                color: #cf2e2e;
+            }
+
+/* Back to Home Button */
+.back-home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fcb900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+    .back-home-button:hover {
+        background-color: #ff6900;
+        color: #fff;
+    }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .post h2 {
+        font-size: 20px;
+    }
+
+    .post {
+        padding: 15px;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+
+    .back-home-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Horizontal Black Bar */
+.horizontal-bar {
+    width: 1170px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Back to Home Header */
+.back-home-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.back-home-header a {
+    text-decoration: none;
+    color: inherit;  /* Inherit the black color from the header */
+}
+
+.back-home-header a:hover {
+    color: #666; /* Gray color when hovered */
+}

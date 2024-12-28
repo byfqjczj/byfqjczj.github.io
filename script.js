@@ -30,7 +30,7 @@ document.getElementById('overlay-content').addEventListener('click', function(ev
 document.addEventListener('DOMContentLoaded', () => {
 
     // preload white images to reduce hover buffer
-    ['linkedin', 'mail', 'resume', 'github','me'].forEach((icon) => {
+    ['linkedin', 'mail', 'resume', 'github','me','blog'].forEach((icon) => {
         const img = new Image();
         img.src = `images/${icon}-white.png`;
     })
