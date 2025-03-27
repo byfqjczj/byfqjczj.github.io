@@ -1090,6 +1090,9 @@ li {
 .highlight-red {
     color: rgb(128,0,0);
 }
+.highlight-amazon {
+    color: rgb(255,153,0);
+}
 
 .highlight-blue {
     color: #0693e3;
