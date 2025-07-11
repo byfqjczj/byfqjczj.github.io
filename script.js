@@ -10,11 +10,17 @@ function gone(element) {
 function displayOverlay() {
     const overlay = document.getElementById('overlay');
     overlay.style.display = 'flex';
+    // trigger reflow and re-apply fade-in animation each time
+    overlay.classList.remove('fade-in-overlay');
+    void overlay.offsetWidth;
+    overlay.classList.add('fade-in-overlay');
 }
 
 // Function to close the overlay
 function closeOverlay() {
     const overlay = document.getElementById('overlay');
+    // remove fade class when hiding
+    overlay.classList.remove('fade-in-overlay');
     overlay.style.display = 'none';
 }
 

@@ -633,6 +633,10 @@ h2,.h2 {
     animation: fadeIn 3s;
 }
 
+.fade-in-overlay {
+    animation: fadeIn 1s;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
