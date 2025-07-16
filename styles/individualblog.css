@@ -89,6 +89,12 @@ h2 {
             color: #666; /* Change to lighter gray on hover */
         }
 
+/* New paragraph styling for blog posts */
+.post-content p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+}
+
 /* Sidebar (if needed later) */
 .sidebar {
     background-color: #f9f9f9;
