@@ -40,6 +40,17 @@ button:active,button:focus {
 .site-content {
     padding: 25px 0
 }
+
+/* Global text selection color */
+::selection {
+    background: #222;
+    color: #fff;
+}
+::-moz-selection {
+    background: #222;
+    color: #fff;
+}
+
 /* 
 
 .css-class {
